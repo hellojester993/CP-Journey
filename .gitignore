@@ -1,11 +1,9 @@
-# Ignore the executable files (files with no extension)
-*
-!*.*
-
-# If you name your executables 'a.out' or 'main'
+# If you name your executables 'a.out' or 'main' or '.exe
+*.exe
 a.out
 main
-
+*.in
+*.out
 # Ignore macOS system files
 .DS_Store
 

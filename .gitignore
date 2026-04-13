@@ -1,11 +1,10 @@
-# If you name your executables 'a.out' or 'main' or '.exe
-*.exe
-a.out
-main
-*.in
-*.out
-# Ignore macOS system files
-.DS_Store
+# Ignore everything
+*
+# Allow folders
+!*/
 
-# Ignore VS Code settings folders
-.vscode/
+!*.cpp
+!*.h
+!.gitignore
+
+

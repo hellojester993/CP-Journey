@@ -1,0 +1,13 @@
+# Ignore the executable files (files with no extension)
+*
+!*.*
+
+# If you name your executables 'a.out' or 'main'
+a.out
+main
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore VS Code settings folders
+.vscode/

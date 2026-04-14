@@ -1,25 +1,23 @@
 #include <bits/stdc++.h>
+#include <cstdio>
 
 using namespace std;
 
 
 int main(){
-    int n;
-    int sum;
-    int actSum;
-    int sumofInput;
+    long long n;
+    long long sumofInput =0;
+
     cin >> n;
-    
+    long long sum = (n*(n+1))/2;
     // for loop execute n-1 times
-    for (int i = 0; i < n -1; i++){
-        int x;
+    for (long long i = 1; i < n; i++){
+        long long x;
         cin >> x;
         sumofInput += x;
-        sum +=i; // sums (0 - n-1)
+        // cout << sumofInput << "sum " << endl;
     }
 
-    actSum = n + sum;
-
-    cout << (actSum - sumofInput);
+    cout << (sum - sumofInput);
 
 }
